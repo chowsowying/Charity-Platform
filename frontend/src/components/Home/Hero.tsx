@@ -31,8 +31,12 @@ const Hero = () => {
         </div>
 
         {/* Image */}
-        <div className="flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:h-[450px] mt-5 ">
-          <img alt="home-pageGraphic" src={Header} className="rounded-tr-[50px]" />
+        <div className="flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 mt-5 ">
+          <div className="relative ">
+            <div className="before:absolute before:-bottom-3 before:-right-3 before:z-[1] before:content-dotssecondary ">
+              <img alt="home-pageGraphic" src={Header} className="rounded-tr-[50px] md:h-[450px]" />
+            </div>
+          </div>
         </div>
       </div>
 

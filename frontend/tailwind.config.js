@@ -6,15 +6,13 @@ module.exports = {
       colors: {
         primary: "#543C32",
         "secondary-500": "#EE7A45",
-        "secondary-300": "#D7B9AC",
-        "secondary-100": "#DED1CC",
+        "secondary-100": "#FAEBE5",
+        "secondary-300": "#D6B9AD",
         green: "#87D980",
       },
       content: {
-        evolvetext: "url('./assets/EvolveText.png')",
-        abstractwaves: "url('./assets/AbstractWaves.png')",
-        sparkles: "url('./assets/Sparkles.png')",
-        circles: "url('./assets/Circles.png')",
+        dotsprimary: "url('./assets/dots-primary.png')",
+        dotssecondary: "url('./assets/dots-secondary.png')",
       },
     },
     screens: {
